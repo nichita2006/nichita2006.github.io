@@ -647,6 +647,7 @@ body {
     text-align: center;
     width: 100%;
     display: block;
+    margin-left: 20px;
   }
   .nav-links a:hover {
     background-color: #ddd;
