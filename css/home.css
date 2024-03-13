@@ -624,7 +624,7 @@ body {
   font-family: Arial, sans-serif;
 }
 /* Stiluri specific pentru telefonul mobil */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .top-bar {
     display: none;
   }
