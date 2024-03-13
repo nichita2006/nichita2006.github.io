@@ -661,6 +661,7 @@ body {
   .phone-number {
     margin-top: 10px;
     margin-bottom: 20px;
+    background-color: black;
   }
   .hamburger-menu {
     display: block;
