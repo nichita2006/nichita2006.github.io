@@ -650,6 +650,9 @@ body {
     order: 2; /* Rearanjează înainte de linkuri */
     color:black;
   }
+  .nav-links .spacer {
+        display: none; /* Ascundem spațiul suplimentar pe dispozitivele mobile */
+    }
 
 
 
