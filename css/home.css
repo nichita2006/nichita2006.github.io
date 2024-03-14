@@ -652,6 +652,10 @@ body {
   .nav-links .spacer {
         display: none; /* Ascundem spațiul suplimentar pe dispozitivele mobile */
     }
+   .nav-links .dropbtn::after {
+        content: " ";
+        margin-left: 10px;
+    }
 
 
 
