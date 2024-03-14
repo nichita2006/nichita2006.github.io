@@ -641,6 +641,8 @@ body {
     flex-direction: column; /* Așază linkurile pe coloană */
     align-items: center;
   }
+    .nav-links a.servicii {
+        margin-right: 10px; }
 
   .phone-number {
     order: 2; /* Rearanjează înainte de linkuri */
