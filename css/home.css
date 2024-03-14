@@ -654,7 +654,7 @@ body {
     }
    .nav-links .dropbtn::after {
         content: " ";
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
 
