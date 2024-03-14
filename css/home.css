@@ -104,6 +104,7 @@ html {
 .phone-number {
   font-weight: bold;
   font-size: 16px;
+  
 }
 
 .top-bar {
@@ -646,8 +647,12 @@ body {
 
   .phone-number {
     order: 2; /* Rearanjează înainte de linkuri */
-    color:black;
+    background-color: black;
   }
+  .phone-number i {
+    color: white;
+  }
+
 
   .logo {
     flex: 1;
