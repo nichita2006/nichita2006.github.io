@@ -644,6 +644,7 @@ body {
 
   .phone-number {
     order: 2; /* Rearanjează înainte de linkuri */
+    color:black;
   }
 
   .logo {
