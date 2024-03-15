@@ -554,6 +554,15 @@ body {
     content: " ";
     margin-left: 20px;
   }
+  
+  .service-items-wrap__items {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .service-items-wrap__items .items__content {
+    padding: 0 10px;
+  }
 
   .logo {
     flex: 1;
