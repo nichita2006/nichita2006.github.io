@@ -784,6 +784,15 @@ body {
     color: white;
     font-size: 14px;
   }
+  
+  .service-items-wrap {
+    flex-direction: column;
+  }
+
+  .service-items-wrap__items {
+    width: auto;
+    margin-bottom: 20px; /* Spațiu între servicii */
+  }
 }
 
 body {
