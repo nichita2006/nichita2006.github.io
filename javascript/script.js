@@ -33,4 +33,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.addEventListener('load', function () {
     document.getElementById('footer-map').classList.add('fadeIn');
 });
-// hamburger//
+document.addEventListener("DOMContentLoaded", function() {
+    // 1. Efect de hover pentru linkurile din zona de navigare
+    const navLinks = document.querySelectorAll('.nav-links a');
+    navLinks.forEach(link => {
+        link.addEventListener('mouseover', function() {
+            this.style.color = 'red';
+        });
+        link.addEventListener('mouseout', function() {
+            this.style.color = 'black';
+        });
+    });
+});
+
